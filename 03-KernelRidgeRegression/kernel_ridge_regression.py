@@ -74,6 +74,13 @@ def split_dataset(total_data, fraction):
     """
     Generates the training and test sets from total_data, given a fraction of data put into the training set.
 
+    Args:
+        total_data (np.ndarray): total data
+        fraction (float): fraction of data put into the training set
+
+    Returns:
+        train_set (np.ndarray): training set
+        test_set (np.ndarray): test set
     """
     shuffled_data = total_data
     np.random.shuffle(shuffled_data)
