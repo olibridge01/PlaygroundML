@@ -4,12 +4,21 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/olibridge01/PlaygroundML/assets/86416298/02131336-cb28-4e92-8710-4a55a072a812">
-  <img alt="Light mode logo." src="https://github.com/olibridge01/PlaygroundML/assets/86416298/6de76fab-fd95-49bf-8eab-e8b129e3b99a">
-</picture>
+![PlaygroundML_grey](https://github.com/olibridge01/PlaygroundML/assets/86416298/a0bfdf01-fe1d-4f88-aabd-488a15bf2613)
+## Playground for Machine Learning in Python
+*PlaygroundML* is a repository containing implementations of various commonly used machine learning models and algorithms. I wrote this project with the aim of elucidating some key methods in machine learning and understanding how things work in practice. Feel free to play around with my code or use it for reference.
 
-doesnt work
+---
+### Directory Structure
+The repository is divided into directories corresponding to each ML algorithm/model that I have implemented. They are as follows:
+- `01-LinearRegression`: Plain old linear regression, regression with a feature map $\mathbf{\phi}(\mathbf{x})$, and ridge regression ($L_2$ regulariser).
+- `02-kNearestNeighbours`: $k$-NN algorithm for a two-dimensional toy dataset.
+- `03-KernelRidgeRegression`: Kernel ridge regression with a Gaussian kernel, including cross-validation for hyperparameter determination.
+- `04-SupportVectorMachines`: SVMs implemented on toy datasets (linearly separable, linearly nonseparable and nonlinearly separable).
 
-# PlaygroundML
-Playground for machine learning
+---
+**Oli Bridge** (<olibridge@rocketmail.com>)
+
+Feel free to explore the different directories, and please reach out if you have any questions or suggestions. 🚀
+
+
