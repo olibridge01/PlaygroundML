@@ -17,6 +17,8 @@ The repository is divided into directories corresponding to each ML algorithm/mo
 - `04-SupportVectorMachines`: SVMs implemented on toy datasets (linearly separable, linearly nonseparable and nonlinearly separable).
 
 ---
+![gp](https://github.com/olibridge01/PlaygroundML/assets/86416298/c00910bb-6108-4fe2-98ec-89c086ef1033)
+---
 **Oli Bridge** (<olibridge@rocketmail.com>)
 
 Feel free to explore the different directories, and please reach out if you have any questions or suggestions. 🚀
